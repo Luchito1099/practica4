@@ -29,7 +29,7 @@ h2 {
     font-weight: 6  00;
     color: #333333;
     text-align: left;
-    margin-left: 64px;
+    margin-left: 52px;
 
 }
 p {
@@ -37,7 +37,7 @@ p {
     font-weight: 500;
     color: #4D5562;
     text-align: left;
-    margin-left: 64px;
+    margin-left: 52px;
     margin-top: 16px;
 
 }
@@ -47,14 +47,13 @@ section {
     width: 736px;
     max-width: 736px;
     margin: 0 auto;
+    padding: 10px;
 
 }
 div {
     display: flex;
     flex-direction: column;
     max-width: 1200px;
-    margin-top: 0px;
-
 
 }
 
@@ -68,6 +67,11 @@ img.separator {
 div.article-date {
     margin-top: 52px;
     flex-direction: row;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+div.article-date:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 div.text {
     justify-content: center;
