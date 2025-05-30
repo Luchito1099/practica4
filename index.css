@@ -65,6 +65,7 @@ img.separator {
 }
 
 div.article-date {
+    display: flex;
     margin-top: 52px;
     flex-direction: row;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -72,6 +73,7 @@ div.article-date {
 div.article-date:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  /* Add a subtle shadow effect on hover */
 }
 div.text {
     justify-content: center;
